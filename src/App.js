@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'react-emotion';
+import styled, { keyframes } from 'react-emotion';
 import { injectGlobal } from 'emotion';
 
 import Card from './components/Card';
@@ -31,13 +31,30 @@ const FlexColumn = styled('div')`
   width: 100vw;
 `;
 
+const pulse = keyframes`
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+`;
+
+const PlaceHolder = styled('h1')`
+  text-align: center;
+  animation: ${pulse} 3s infinite;
+`;
+
 const App = () => (
   <KeyListener>
     {({ code, key, which, keyCode }) => {
       if (keyCode === '-') {
         return (
           <FlexColumn>
-            <h1 style={{ textAlign: 'center' }}>Press Any Key</h1>
+            <PlaceHolder>Press Any Key</PlaceHolder>
           </FlexColumn>
         );
       }
