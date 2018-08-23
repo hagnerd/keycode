@@ -7,6 +7,7 @@ const CardWrapper = styled('div')`
   box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
+  min-width: 250px;
 `;
 
 const CardHeader = styled('div')`
@@ -15,6 +16,7 @@ const CardHeader = styled('div')`
   border-top-right-radius: 10px;
   color: #17223d;
   padding: 5px 10px;
+  text-align: center;
 `;
 
 const CardBody = styled('div')`
