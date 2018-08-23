@@ -29,7 +29,7 @@ test('should render the title correctly', () => {
 
 test('should render the value correctly', () => {
   // Assemble
-  const props = propFac({ value: '72' });
+  const props = propFac({ value: 72 });
   const { getByText } = render(<Card {...props} />);
 
   // Act
