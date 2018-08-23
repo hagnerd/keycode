@@ -7,12 +7,14 @@ import Display from './components/Display';
 import KeyListener from './containers/KeyListener';
 
 injectGlobal`
+  @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
   body, html {
     box-sizing: border-box;
     height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
   }
 `;
 
