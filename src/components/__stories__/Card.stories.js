@@ -1,16 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import styled from 'react-emotion';
 import Card from '../Card';
-
-const Wrapper = styled('div')`
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
+import Wrapper from '../../utils/storyBookWrapper';
 
 const info = {
   title: 'event.keyCode',
