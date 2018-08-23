@@ -4,7 +4,9 @@ import styled from 'react-emotion';
 
 const KeyCode = styled('h1')`
   color: #249c69;
-  font-size: 6rem;
+  font-size: 15rem;
+  text-align: center;
+  margin: 0;
 `;
 
 const Display = ({ keyCode }) => <KeyCode>{keyCode}</KeyCode>;
