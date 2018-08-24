@@ -1,9 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import Display from '../Display';
+import PlaceHolder from '../Placeholder';
 import Wrapper from '../../utils/storyBookWrapper';
 
-storiesOf('Display', module)
+storiesOf('PlaceHolder', module)
   .addDecorator(story => <Wrapper>{story()}</Wrapper>)
-  .add('default', () => <Display keyCode="71" />);
+  .add('default', () => <PlaceHolder text="Press any key" />);

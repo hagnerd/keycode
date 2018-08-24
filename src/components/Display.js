@@ -12,11 +12,7 @@ const KeyCode = styled('h1')`
 const Display = ({ keyCode }) => <KeyCode>{keyCode}</KeyCode>;
 
 Display.propTypes = {
-  keyCode: PropTypes.string,
-};
-
-Display.defaultProps = {
-  keyCode: 'Press a key',
+  keyCode: PropTypes.string.isRequired,
 };
 
 export default Display;
