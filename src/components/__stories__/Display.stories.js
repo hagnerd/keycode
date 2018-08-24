@@ -6,5 +6,4 @@ import Wrapper from '../../utils/storyBookWrapper';
 
 storiesOf('Display', module)
   .addDecorator(story => <Wrapper>{story()}</Wrapper>)
-  .add('default', () => <Display keyCode="71" />)
-  .add('withoutKeyCode', () => <Display />);
+  .add('default', () => <Display keyCode="71" />);
