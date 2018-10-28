@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-testing-library';
 
-import Card from '../Card';
+import Card from '../card';
 
 const propFac = props => ({
   title: 'event.keyCode',

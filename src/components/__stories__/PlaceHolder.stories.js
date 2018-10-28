@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import PlaceHolder from '../Placeholder';
+import PlaceHolder from '../placeholder';
 import Wrapper from '../../utils/storyBookWrapper';
 
 storiesOf('PlaceHolder', module)

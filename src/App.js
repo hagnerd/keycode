@@ -1,10 +1,10 @@
 import React from 'react';
 import { injectGlobal } from 'emotion';
 
-import Card from './components/Card';
-import Display from './components/Display';
-import PlaceHolder from './components/PlaceHolder';
-import KeyListener from './containers/KeyListener';
+import Card from './components/card';
+import Display from './components/display';
+import PlaceHolder from './components/placeholder';
+import KeyListener from './containers/key-listener';
 import { CardsWrapper, FlexColumn } from './ui';
 
 injectGlobal`
