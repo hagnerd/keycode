@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import Display from '../Display';
+import Display from '../display';
 import Wrapper from '../../utils/storyBookWrapper';
 
 storiesOf('Display', module)
