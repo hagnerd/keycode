@@ -18,6 +18,6 @@ const PulseH1 = styled('h1')`
   animation: ${pulse} 3s infinite;
 `;
 
-const PlaceHolder = ({ text }) => <PulseH1>{text}</PulseH1>;
+const PlaceHolder = ({ children }) => <PulseH1>{children}</PulseH1>;
 
 export default PlaceHolder;
